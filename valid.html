@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>USN Validator</title>
+        <script type="text/javascript">function formValidator()
+            {
+                    var usn=document.getElementById('usnFrm');
+                    usnExp=/^[1-4][A-Z]{2}\d{2}[A-Z]{2}\d{3}$/;
+                    if(usn.value.trim().length===0)
+                {
+                    alert("USN is empty.");
+                    usn.focus();
+                    return false;
+                }
+                else if(!usn.value.match(usnExp))
+                {
+                    alert("USN should be in VTU USN format,eg.,1GD10CS001");
+                    usn.focus();
+                    return false;
+                }
+                else{
+                    alert("USN:"+usn.value+"is in correct format");
+                    return true;
+                }
+            }   
+        </script>
+    </head>
+    <body>
+        <form onSubmit="return formValidator()">
+            Enter your VTU USN:<input type="text" id="usnFrm"/><br/>
+            <input type="submit" value="SUBMIT"/>
+        </form>
+    </body>
+</html>

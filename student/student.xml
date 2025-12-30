@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+<VTU>
+    <STUDENT>
+        <USN>U20AU21S0171</USN>
+        <NAME>KAVITHA</NAME>
+        <COLLEGE>BCU</COLLEGE>
+        <BRANCH>Computer Science</BRANCH>
+        <YEAR>2024</YEAR>
+        <EMAILID>kavitha@gmail.com</EMAILID>
+    </STUDENT>
+
+    <STUDENT>
+        <USN>U20AU21S0594</USN>
+        <NAME>CHANDANA</NAME>
+        <COLLEGE>MCU</COLLEGE>
+        <BRANCH>Mathematics</BRANCH>
+        <YEAR>2023</YEAR>
+        <EMAILID>chandanam@gmail.com</EMAILID>
+    </STUDENT>
+
+    <STUDENT>
+        <USN>U20AU21S0514</USN>
+        <NAME>chaithra</NAME>
+        <COLLEGE>BNU</COLLEGE>
+        <BRANCH>Computer Science and Engineering</BRANCH>
+        <YEAR>2012</YEAR>
+        <EMAILID>chaithra@gmail.com</EMAILID>
+    </STUDENT>
+</VTU>

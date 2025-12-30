@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stack-top</title>
+
+    <style>
+        .para {
+            border: thin solid black;
+            padding: 1cm;
+            position: absolute;
+            width: 300px;
+        }
+
+        #layer1 {
+            background-color: yellow;
+            top: 200px;
+            left: 400px;
+            z-index: 1;
+        }
+
+        #layer2 {
+            background-color: rgb(255, 0, 0);
+            top: 220px;
+            left: 420px;
+            z-index: 2;
+        }
+
+        #layer3 {
+            background-color: rgb(38, 0, 255);
+            top: 240px;
+            left: 440px;
+            z-index: 3;
+        }
+    </style>
+
+    <script>
+        var topLayer = "layer3";
+
+        function mover(toTop) {
+            var oldTop = document.getElementById(topLayer).style;
+            var newTop = document.getElementById(toTop).style;
+
+            oldTop.zIndex = 0;
+            newTop.zIndex = 5;
+
+            topLayer = toTop;
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div id="layer1" class="para" onmouseover="mover('layer1')">-----$Kavi</div>
+    <div id="layer2" class="para" onmouseover="mover('layer2')">-----$Puju</div>
+    <div id="layer3" class="para" onmouseover="mover('layer3')">-----$Keerthu</div>
+
+</body>
+</html>

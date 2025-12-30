@@ -1,0 +1,33 @@
+VTU{
+    background-color: #f2eeee;
+    width:100%;
+}
+
+student{
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+
+USN,
+NAME{
+    color:orange;
+    font-size: 100%;
+    display: block;
+    margin-left:20pt;
+}
+
+COLLEGE,
+BRANCH,
+YEAR{
+    display:block;
+    color:#7f2e2e;
+    margin-left: 20pt;
+}
+
+EMAILID{
+    display: block;
+    color:#0000ff;
+    margin-left: 20pt;
+    font-style: italic;
+}
