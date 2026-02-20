@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+
+    <!-- Internal CSS -->
+    <style type="text/css">
+        body {
+            background-image: url("image.png"); /* use an image */
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-color: pink;
+        }
+
+        a:link { text-decoration: none; color: orange; }
+        a:visited { text-decoration: none; color: red; }
+        a:hover { text-decoration: none; color: blue; }
+        a:active { text-decoration: none; color: purple; }
+
+        h3 { color: green; }
+
+        /* cursor styles */
+        .c1 { cursor: crosshair; }
+        .c2 { cursor: pointer; }
+        .c3 { cursor: move; }
+        .c4 { cursor: text; }
+        .c5 { cursor: wait; }
+        .c6 { cursor: help; }
+
+        /* id styling */
+        #headline {
+            font-weight: bold;
+            color: brown;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <h1 style="color: blue; text-align: center;">CSS (Inline, Internal, External)</h1>
+
+    <p>This paragraph is NOT styled with CSS.</p>
+    <p class="left">This paragraph is styled by class left.</p>
+    <p class="center">This paragraph is styled by class center.</p>
+    <p class="right">This paragraph is styled by class right.</p>
+
+    <p>This is <b>Bold</b></p>
+    <p id="headline">This is Bold Text is Styled</p>
+
+    <h2><b><a href="#">This is a link</a></b></h2>
+
+    <h3 class="c1">The cursor over this element is Plus sign</h3>
+    <h3 class="c2">The cursor over this element is a pointing hand</h3>
+    <h3 class="c3">The cursor over this element is move cursor</h3>
+    <h3 class="c4">The cursor over this element is I-bar</h3>
+    <h3 class="c5">The cursor over this element is Wait</h3>
+    <h3 class="c6">The cursor over this element is Question mark</h3>
+
+</body>
+</html>

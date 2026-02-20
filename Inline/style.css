@@ -1,0 +1,32 @@
+p.left {
+    text-align: left;
+    color: blue;
+    font-family: Cambria;
+    font-size: small;
+    text-indent: 20px;
+}
+
+p.center {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 20px;
+    font-size: small;
+}
+
+p.right {
+    text-align: right;
+    color: red;
+    font-family: Tahoma;
+    font-size: 15px;
+    text-decoration: overline;
+    font-style: italic;
+}
+
+#headline {
+    color: orange;
+    font-size: 22px;
+    font-family: Arial;
+    text-decoration: underline;
+}

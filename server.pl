@@ -6,4 +6,4 @@ $val=$ENV{$var};
 $val=~s|\n|\\n|g;
 $val=~s|"|\\"|g;
 print"${var}=\"${val}\"\n";
-}S
+}
